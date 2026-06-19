@@ -1,4 +1,5 @@
 import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const Connect = () => {
     return (
@@ -39,6 +40,15 @@ const Connect = () => {
                     >
                         <FaEnvelope className="connect-icon" />
                         <span>Email</span>
+                    </a>
+                    <a
+                        href="https://leetcode.com/u/JayitaS"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="connect-btn leetcode"
+                    >
+                        <SiLeetcode className="connect-icon" />
+                        <span>LeetCode</span>
                     </a>
                 </div>
 

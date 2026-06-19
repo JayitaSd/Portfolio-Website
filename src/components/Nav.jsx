@@ -8,7 +8,7 @@ const Nav = () => {
     const handleNavClick = () => setMenuOpen(false);
 
     return (
-        <header className='padding-x py-3 fixed top-0 z-50 w-full bg-[#faba6b] shadow-sm'>
+        <header className='padding-x py-3 fixed top-0 z-50 w-full bg-[#f9dca4]/90 shadow-sm backdrop-blur-md'>
             <nav className="flex justify-between items-center max-container relative">
                 {/* Left: Name */}
                 <a href="#hero" className="font-montserrat text-2xl font-bold tracking-tight text-slate-900">

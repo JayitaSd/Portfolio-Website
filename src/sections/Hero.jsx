@@ -12,7 +12,7 @@ const codeLines = [
     { code: '    console.warn("Not found yet.");',        color: 'text-orange-300' },
     { code: '    return stillTrying();',                  color: 'text-purple-300' },
     { code: '  } finally {',                              color: 'text-yellow-300' },
-    { code: '    neverGiveUp(); // always runs',          color: 'text-green-300' },
+    { code: '    neverGiveUp();',                         color: 'text-green-300' },
     { code: '  }',                                        color: 'text-yellow-300' },
     { code: '}',                                          color: 'text-yellow-300' },
 ];
@@ -115,24 +115,27 @@ const Hero = () => {
                     speed={50}
                     delay={700}
                 />
-                <TypingText
-                    text="Full Stack Developer"
-                    className="hero-role"
-                    speed={40}
-                    delay={1300}
-                />
+                <div className="hero-role-wrapper">
+                    <TypingText
+                        text="Full Stack Developer & AI Enthusiast"
+                        className="hero-role"
+                        speed={35}
+                        delay={1300}
+                    />
+                </div>
+
                 <div className="hero-sub-wrapper">
                     <TypingText
                         text="Building interfaces users love,"
                         className="hero-sub"
                         speed={25}
-                        delay={1900}
+                        delay={2500}
                     />
                     <TypingText
                         text="backed by systems that scale."
                         className="hero-sub"
                         speed={25}
-                        delay={2400}
+                        delay={3000}
                     />
                 </div>
             </div>

@@ -4,11 +4,11 @@
 @theme {
     --font-montserrat: 'Montserrat', sans-serif;
     --font-palanquin: 'Palanquin', sans-serif;
-    --color-amber-warm: #faba6b;
+    --color-amber-warm: #f9dca4;
 }
 
 html, body, #root {
-    background-color: #faba6b;
+    background-color: #f9dca4;
     scroll-behavior: smooth;
 }
 
@@ -32,7 +32,9 @@ html, body, #root {
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: #faba6b;
+        background-color: #edd9ad;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
         width: 100%;
         padding: 1rem 2rem 1.5rem;
         border-top: 1px solid rgba(0,0,0,0.1);
@@ -96,22 +98,26 @@ html, body, #root {
     }
 
     .hero-greeting {
-        @apply font-montserrat text-xl sm:text-2xl font-medium text-slate-700; /* Smaller - same as sub text */
+        @apply font-montserrat text-xl sm:text-2xl font-semibold text-slate-700 italic;
     }
 
     .hero-name {
-        @apply font-montserrat text-5xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-tight; /* Largest - main name */
+        @apply font-montserrat text-5xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-tight;
+    }
+    .hero-role-wrapper {
+        display: block;
     }
 
     .hero-role {
-        @apply font-montserrat text-2xl sm:text-3xl lg:text-4xl font-semibold text-slate-800; /* Medium - slightly smaller than name */
+        @apply font-montserrat text-2xl sm:text-3xl lg:text-4xl font-semibold text-slate-800 leading-snug;
+        display: block;
     }
 
     .hero-sub {
-        @apply font-palanquin text-xl sm:text-2xl font-normal text-slate-700 leading-relaxed mt-1; /* Smaller - same as greeting */
+        @apply font-palanquin text-xl sm:text-2xl font-medium leading-relaxed mt-1 text-slate-700 italic;
     }
     .hero-sub-wrapper {
-        @apply flex flex-col; /* No gap between lines */
+        @apply flex flex-col;
         margin-top: 0.2rem;
     }
 
@@ -393,7 +399,7 @@ html, body, #root {
     }
 
     .project-card {
-        background: #fef2e3;
+        background: #ffffff;
         backdrop-filter: blur(8px);
         border-radius: 12px;
         overflow: hidden;
@@ -837,7 +843,15 @@ html, body, #root {
         background: #be4f00;
         box-shadow: 0 12px 32px rgba(224, 93, 0, 0.4);
     }
+    .connect-btn.leetcode {
+        background: #FFA116;
+        color: #1a1a1a;
+    }
 
+    .connect-btn.leetcode:hover {
+        background: #e08e00;
+        box-shadow: 0 8px 24px rgba(255, 161, 22, 0.35);
+    }
     .connect-footer {
         width: 100%;
         padding-top: 2rem;

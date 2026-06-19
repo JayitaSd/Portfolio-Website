@@ -2,7 +2,7 @@ import { Hero, About, TechStack, Projects, Experience, Connect, Footer } from '.
 import Nav from "./components/Nav";
 
 const App = () => (
-    <main className="relative min-h-screen bg-[#faba6b]" style={{ paddingTop: '80px' }}>
+    <main className="relative min-h-screen" style={{ paddingTop: '80px' }}>
         <Nav />
         <section id="hero" className="section-pad">
             <Hero />

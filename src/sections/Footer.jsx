@@ -1,4 +1,5 @@
 import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const Footer = () => {
     return (
@@ -35,6 +36,15 @@ const Footer = () => {
                             aria-label="Email"
                         >
                             <FaEnvelope />
+                        </a>
+                        <a
+                            href="https://leetcode.com/u/JayitaS"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="footer-social-link"
+                            aria-label="LeetCode"
+                        >
+                            <SiLeetcode />
                         </a>
                     </div>
                 </div>
