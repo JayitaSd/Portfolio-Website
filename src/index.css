@@ -86,6 +86,56 @@ html, body, #root {
     .nav-link:hover::after {
         width: 100%;
     }
+    .resume-btn {
+        font-family: var(--font-montserrat);
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0.45rem 1.1rem;
+        border: 2.5px solid #1e293b;
+        background: #1e293b;
+        transition: box-shadow 0.25s ease, transform 0.2s ease;
+        display: inline-block;
+    }
+
+    .resume-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(30, 41, 59, 0.4);
+    }
+
+    .resume-btn:active {
+        transform: translateY(0px);
+        box-shadow: 0 2px 8px rgba(30, 41, 59, 0.3);
+    }
+
+    .resume-btn-mobile {
+        font-family: var(--font-montserrat);
+        font-size: 1rem;
+        font-weight: 700;
+        color: #ffffff !important;
+        text-decoration: none;
+        padding: 0.6rem 1rem;
+        margin-top: 0.5rem;
+        background: #1e293b;
+        border: none;
+        transition: box-shadow 0.25s ease, transform 0.2s ease;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .resume-btn-mobile:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(30, 41, 59, 0.4);
+        color: #ffffff !important;
+    }
+
+    .resume-btn-mobile:active {
+        transform: translateY(0px);
+        box-shadow: 0 2px 8px rgba(30, 41, 59, 0.3);
+    }
+
     /* ── Hero ── */
     .hero-wrapper {
         @apply flex flex-col lg:flex-row items-center justify-between gap-12;
@@ -852,6 +902,16 @@ html, body, #root {
     .connect-btn.leetcode:hover {
         background: #e08e00;
         box-shadow: 0 8px 24px rgba(255, 161, 22, 0.35);
+    }
+    .connect-btn.resume {
+        background: #1e293b;
+        color: #ffffff;
+    }
+
+    .connect-btn.resume:hover {
+        background: #0f172a;
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(30, 41, 59, 0.35);
     }
     .connect-footer {
         width: 100%;

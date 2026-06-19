@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 
 const Connect = () => {
@@ -49,6 +49,15 @@ const Connect = () => {
                     >
                         <SiLeetcode className="connect-icon" />
                         <span>LeetCode</span>
+                    </a>
+                    <a
+                        href="https://drive.google.com/file/d/1pwfOGe3m8ooTVPkH-FqL3dp-QgyKqBDm/view?usp=drive_link"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="connect-btn resume"
+                    >
+                        <FaFileAlt className="connect-icon" />
+                        <span>Resume</span>
                     </a>
                 </div>
 

@@ -26,14 +26,26 @@ const Nav = () => {
                     ))}
                 </ul>
 
-                {/* Mobile Hamburger */}
-                <button
-                    className="hidden max-lg:block p-1"
-                    onClick={() => setMenuOpen((prev) => !prev)}
-                    aria-label="Toggle menu"
-                >
-                    <img src={hamburger} alt="Menu" width={26} height={26} />
-                </button>
+                <div className="flex items-center gap-4">
+                    <a
+                        href="https://drive.google.com/file/d/1pwfOGe3m8ooTVPkH-FqL3dp-QgyKqBDm/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="resume-btn"
+                    >
+                        RESUME
+                    </a>
+
+
+                    {/* Mobile Hamburger */}
+                    <button
+                        className="hidden max-lg:block p-1"
+                        onClick={() => setMenuOpen((prev) => !prev)}
+                        aria-label="Toggle menu"
+                    >
+                        <img src={hamburger} alt="Menu" width={26} height={26} />
+                    </button>
+                </div>
             </nav>
 
             {/* Mobile Dropdown — outside nav, spans full header width */}
