@@ -19,14 +19,11 @@ const Nav = () => {
                 <ul className="flex items-center gap-8 max-lg:hidden">
                     {navLinks.map((item) => (
                         <li key={item.label}>
-                            <a
-                            href={item.href}
-                            className="nav-link"
-                            >
-                            {item.label}
-                        </a>
+                            <a href={item.href} className="nav-link">
+                                {item.label}
+                            </a>
                         </li>
-                        ))}
+                    ))}
                 </ul>
 
                 {/* Mobile Hamburger */}
@@ -37,16 +34,16 @@ const Nav = () => {
                 >
                     <img src={hamburger} alt="Menu" width={26} height={26} />
                 </button>
-
-                {/* Mobile Dropdown Menu */}
-                <div className={`nav-mobile-menu ${menuOpen ? 'open' : ''}`}>
-                    {navLinks.map((item) => (
-                        <a key={item.label} href={item.href} onClick={handleNavClick}>
-                            {item.label}
-                        </a>
-                    ))}
-                </div>
             </nav>
+
+            {/* Mobile Dropdown — outside nav, spans full header width */}
+            <div className={`nav-mobile-menu ${menuOpen ? 'open' : ''}`}>
+                {navLinks.map((item) => (
+                    <a key={item.label} href={item.href} onClick={handleNavClick}>
+                        {item.label}
+                    </a>
+                ))}
+            </div>
         </header>
     );
 };

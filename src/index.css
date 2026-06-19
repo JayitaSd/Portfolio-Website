@@ -32,7 +32,8 @@ html, body, #root {
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: #edd9ad;
+        left: 0;
+        background-color: #f9dca4;
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         width: 100%;
