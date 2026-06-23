@@ -48,8 +48,7 @@ const categories = [
         items: [
             { name: 'NumPy',       logo: 'numpy',       color: '#013243', text: '#fff' },
             { name: 'Pandas',      logo: 'pandas',      color: '#150458', text: '#fff' },
-            { name: 'Matplotlib',  logo: 'matplotlib',  color: '#ffffff', text: '#000' },
-            { name: 'OpenCV',      logo: 'opencv',      color: '#5C3EE8', text: '#fff' },
+            { name: 'Matplotlib',  logo: 'matplotlib',  color: '#ffffff', text: '#000' }
         ],
     },
     {
