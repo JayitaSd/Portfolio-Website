@@ -17,6 +17,7 @@ export const projects = [
         description: 'Real-time collaborative code editor with instant synchronization using WebSockets, Redis, and Spring Boot. Features Monaco Editor, JWT auth, and multi-user editing.',
         stack: ['React', 'Tailwind CSS', 'Spring Boot', 'WebSocket', 'PostgreSQL', 'Redis', 'JWT', 'Docker'],
         githubLink: 'https://github.com/JayitaSd/ParallelCode',
+        youtubeLink: 'https://youtu.be/LInGE3rU21M'
     },
     {
         id: 2,
@@ -25,6 +26,7 @@ export const projects = [
         description: 'Retrieval-Augmented Generation (RAG) application using Spring AI, Spring Boot and Google Gemini. Answers questions grounded in your documents with HyDE and vector search.',
         stack: ['Spring Boot', 'Spring AI', 'Gemini'],
         githubLink: 'https://github.com/JayitaSd/SRAI',
+        youtubeLink: 'htps://youtu.be/KBL7ZKNNbBUt'
     },
     {
         id: 3,
@@ -40,7 +42,7 @@ export const projects = [
         image: voice,
         description: 'Real-time voice assistant powered by ElevenLabs Conversational AI. Features speech recognition, LLM responses, and natural text-to-speech synthesis.',
         stack: ['Python', 'AI', 'Eleven Labs'],
-        githubLink: 'https://github.com/JayitaSd/Voice_Assistant',
+        githubLink: 'https://github.com/JayitaSd/Voice_Assistant'
     },
     {
         id: 5,
@@ -49,6 +51,7 @@ export const projects = [
         description: 'AI-powered fact-checking and truth verification tool. Supports single verification, bulk verification and image ocr. Helps users validate information and combat misinformation.',
         stack: ['Python', 'AI', 'Ocr', 'HTML','CSS','JavaScript'],
         githubLink: 'https://github.com/JayitaSd/TruthGuard',
+        youtubeLink: 'https://youtu.be/gZa1DGGiJSU'
     },
     {
         id: 6,

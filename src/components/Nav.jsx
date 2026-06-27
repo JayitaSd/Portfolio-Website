@@ -28,7 +28,7 @@ const Nav = () => {
 
                 <div className="flex items-center gap-4">
                     <a
-                        href="https://drive.google.com/file/d/1pwfOGe3m8ooTVPkH-FqL3dp-QgyKqBDm/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1e9NLq96v5T_pAihPll1-wTQhwUWPowbg/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="resume-btn"

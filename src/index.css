@@ -526,6 +526,13 @@ html, body, #root {
         color: #334155;
     }
 
+    .project-buttons {
+        display: flex;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+        margin-top: auto;
+    }
+
     .project-github-btn {
         display: inline-flex;
         align-items: center;
@@ -550,8 +557,32 @@ html, body, #root {
         transform: translateY(-2px);
     }
 
-    .github-icon {
+    .github-icon, .youtube-icon {
         font-size: 1.2rem;
+    }
+
+    .project-youtube-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        padding: 0.6rem 1.4rem;
+        background: #dc143c;
+        color: #fff;
+        font-family: var(--font-montserrat);
+        font-size: 0.85rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.2s ease, transform 0.15s ease;
+        width: fit-content;
+    }
+
+    .project-youtube-btn:hover {
+        background: #cc0000;
+        transform: translateY(-2px);
     }
 
     /* ── Experience ── */

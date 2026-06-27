@@ -1,5 +1,5 @@
 import {projects} from "../constants/index.js";
-import {FaGithub} from "react-icons/fa";
+import {FaGithub, FaYoutube} from "react-icons/fa";
 const ProjectCard = ({ project }) => {
     return (
         <div className="project-card">
@@ -20,15 +20,28 @@ const ProjectCard = ({ project }) => {
                         </span>
                     ))}
                 </div>
-                <a
-                    href={project.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="project-github-btn"
-                >
-                    <FaGithub className="github-icon" />
-                    <span>View Code</span>
-                </a>
+                <div className="project-buttons">
+                    <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-github-btn"
+                    >
+                        <FaGithub className="github-icon" />
+                        <span>View Code</span>
+                    </a>
+                    {project.youtubeLink && (
+                        <a
+                            href={project.youtubeLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="project-youtube-btn"
+                        >
+                            <FaYoutube className="youtube-icon" />
+                            <span>Demo</span>
+                        </a>
+                    )}
+                </div>
             </div>
         </div>
     );
