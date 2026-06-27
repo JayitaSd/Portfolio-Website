@@ -26,7 +26,7 @@ export const projects = [
         description: 'Retrieval-Augmented Generation (RAG) application using Spring AI, Spring Boot and Google Gemini. Answers questions grounded in your documents with HyDE and vector search.',
         stack: ['Spring Boot', 'Spring AI', 'Gemini'],
         githubLink: 'https://github.com/JayitaSd/SRAI',
-        youtubeLink: 'htps://youtu.be/KBL7ZKNNbBUt'
+        youtubeLink: 'https://youtu.be/KBL7ZKNNbBUt'
     },
     {
         id: 3,
