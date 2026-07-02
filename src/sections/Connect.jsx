@@ -41,6 +41,7 @@ const Connect = () => {
                         <FaEnvelope className="connect-icon" />
                         <span>Email</span>
                     </a>
+                    {/*
                     <a
                         href="https://leetcode.com/u/JayitaS"
                         target="_blank"
@@ -50,6 +51,7 @@ const Connect = () => {
                         <SiLeetcode className="connect-icon" />
                         <span>LeetCode</span>
                     </a>
+                    */}
                     <a
                         href="https://drive.google.com/file/d/1e9NLq96v5T_pAihPll1-wTQhwUWPowbg/view?usp=drive_link"
                        target="_blank"

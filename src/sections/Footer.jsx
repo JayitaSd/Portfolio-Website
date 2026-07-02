@@ -37,7 +37,8 @@ const Footer = () => {
                         >
                             <FaEnvelope />
                         </a>
-                        <a
+                        {/*
+                            <a
                             href="https://leetcode.com/u/JayitaS"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -46,6 +47,7 @@ const Footer = () => {
                         >
                             <SiLeetcode />
                         </a>
+                        */}
                     </div>
                 </div>
 
